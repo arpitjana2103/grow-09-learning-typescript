@@ -11,4 +11,4 @@ function yearsToDay(years: number): number {
 Hello I am multiline comment
 */
 
-yearsToDay(356);
+console.log(yearsToDay(356));

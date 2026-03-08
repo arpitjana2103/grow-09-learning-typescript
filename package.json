@@ -16,7 +16,7 @@
     "main": "index.js",
     "scripts": {
         "build": "tsc --project tsconfig.json",
-        "dev": "tsc --watch --project tsconfig.json"
+        "watch-ts": "tsc --watch --project tsconfig.json"
     },
     "devDependencies": {
         "typescript": "^5.9.3"
