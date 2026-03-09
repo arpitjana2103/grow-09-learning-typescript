@@ -9,10 +9,18 @@ type AccountDetails = {
     email: string;
 };
 
-const user: UserInfo & AccountDetails = {
+const user1: UserInfo | AccountDetails = {
     firstN: "Arpit",
     lastN: "Jana",
     age: 27,
-    email: "aj19990321@gmail.com",
-    // accountNumber: 123456,
 };
+
+const user2: UserInfo | AccountDetails = {
+    accountNumber: 123456456,
+    email: "arpit@gmail.com",
+};
+
+// Literal Union Type
+type rgb = "red" | "green" | "blue";
+
+const color: rgb = "red";
